@@ -33,7 +33,7 @@ You can automate it with a cron job.  Edit your crontab:
 
 ...and set it to run once an hour
 
-    0 1 * * * /home/zoltar_the_infallible/bin/chicken_little.rb
+    0 * * * * /home/zoltar_the_infallible/bin/chicken_little.rb
 
 I STRONGLY RECOMMEND putting in a garbage URL and manually running your script to make sure you receive an outage notification.  Your SMTP settings are surprisingly easy to screw up, and you don't want to find your dumb config mistake after a client has called you to let you know the site's down.
 
